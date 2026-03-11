@@ -15,6 +15,6 @@ Date: 11/02/2026
 - Loaded the UCI dataset in Python
 - Inspected feature and target shapes
 - Viewed the first rows and columns names
-
-Next step:
-Move onto Phase 1 where we take a look at the data
+- The dataset has 30,000 rows, 23 features and 1 target column
+- Renamed columns X1-X23 to the documented variable names from UCI
+- Prepared the notebook to start understanding the features
