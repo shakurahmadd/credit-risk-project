@@ -8,5 +8,9 @@ Date: 11/02/2026
 - Renamed branch to main
 - Created and activated Venv
 - Created the initial project structure
+- VS code using the .venv interpreter
+- Created first notebook: notebooks/eda.ipynb
+- Verfified the notebook kernel and imports are working
+
 Next step:
-Install core packaged and verify the enviroment is working 
+Move onto Phase 1 where we take a look at the data
