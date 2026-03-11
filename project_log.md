@@ -11,6 +11,10 @@ Date: 11/02/2026
 - VS code using the .venv interpreter
 - Created first notebook: notebooks/eda.ipynb
 - Verfified the notebook kernel and imports are working
+- Installed ucimlrepo 
+- Loaded the UCI dataset in Python
+- Inspected feature and target shapes
+- Viewed the first rows and columns names
 
 Next step:
 Move onto Phase 1 where we take a look at the data
