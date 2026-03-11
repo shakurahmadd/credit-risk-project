@@ -18,3 +18,4 @@ Date: 11/02/2026
 - The dataset has 30,000 rows, 23 features and 1 target column
 - Renamed columns X1-X23 to the documented variable names from UCI
 - Prepared the notebook to start understanding the features
+- Split features into related groups in order to make the later EDA easier
