@@ -1,7 +1,7 @@
 # Project Log
 
 ## Session 1
-Date: 11/02/2026 
+Date: 11/03/2026 
 - Started Phase 0 setup.
 - Created the project folder and opened it in VS Code.
 - Initialised Git
@@ -19,3 +19,8 @@ Date: 11/02/2026
 - Renamed columns X1-X23 to the documented variable names from UCI
 - Prepared the notebook to start understanding the features
 - Split features into related groups in order to make the later EDA easier
+
+Date: 12/03/2026 
+- complted EDA but plotting features in related groups 
+- found key predictive features, features with extreme skews and outliers and iter-related features
+
