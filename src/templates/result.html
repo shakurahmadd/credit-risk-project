@@ -6,8 +6,21 @@
     </head>                                                                                                                                                              
     <body>                                                                                                                                                                 
         <div class="container mt-5">                                                                                                                                     
-            <h1>Prediction Result</h1>                                                                                                                                   
-            <p>{{ result }}</p>
+            <h1>Prediction Result</h1>  
+            {% if prediction == 1 %}                                                                                                                                                 
+            <div class="alert alert-danger">                                                                                                                                           
+                <h4>High Risk Customer</h4>                                                                                                                                            
+                <p>This customer is likely to default.</p>                                                                                                                             
+                <p>Confidence: {{ probability }}%</p>                                                                                                                                  
+            </div>                                                                                                                                                                     
+            {% else %}                                                                                                                                                                 
+            <div class="alert alert-success">                                                                                                                                        
+                <h4>Low Risk Customer</h4>                                                                                                                                           
+                <p>This customer is not likely to default.</p>
+                <p>Confidence: {{ probability }}%</p>
+            </div>
+            {% endif %}                                                                                                                                 
+            
             <a href="/">Make another prediction</a>
         </div>
     </body>

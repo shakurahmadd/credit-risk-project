@@ -24,10 +24,7 @@ def predict():
     data = pd.DataFrame([request.form], dtype=float)
     prediction = loaded_model.predict(data)
     probability = loaded_model.predict_proba(data)[0][1] * 100
-    if prediction[0] == 0:
-        return render_template('result.html', result=f"Low risk customer: Not likely to default (confidence {probability:.1f}%)")
-    else: 
-        return render_template("result.html", result= f"High risk customer: Likely to default (confidence {probability:.1f}%)")
+    return render_template('result.html', prediction=int(prediction[0]), probability=f"{probability:.1f}")
 
 # only run this code if this file is being directly, not imported by another file
 if __name__ == '__main__':
