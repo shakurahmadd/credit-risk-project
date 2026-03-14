@@ -23,4 +23,12 @@ Date: 11/03/2026
 Date: 12/03/2026 
 - complted EDA but plotting features in related groups 
 - found key predictive features, features with extreme skews and outliers and iter-related features
+- Build preprocessing pipeline for different feature groups 
+- Used a dummy classifier to build a baseline result 
+- Compared with 3 models: Decision Tree, Random Forest and XGBoost
+- Plotted feature importance and removed unimportance features 
+
+Data: 14/03/2026
+- Saved final model using joblib
+
 
