@@ -28,5 +28,5 @@ def predict():
 
 # only run this code if this file is being directly, not imported by another file
 if __name__ == '__main__':
-    app.run(debug=True) # for development 
+    app.run(debug=False) # for development changed to false for deployment
 
