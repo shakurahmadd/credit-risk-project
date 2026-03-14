@@ -30,5 +30,10 @@ Date: 12/03/2026
 
 Data: 14/03/2026
 - Saved final model using joblib
+- Created app.py which is where the Flask app lives
+- Use job.load in the app to make predictions on the users data
+- created HTML template index.html, where the user can inout customer data
+- Created HTML template result.html which takes the user data and makes predictions
+- Used Render to deploy the app
 
 
